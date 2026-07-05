@@ -1,0 +1,9 @@
+speech_recognition
+pyttsx3
+gTTS
+pygame
+yt_dlp
+python-dotenv
+google-generativeai
+requests
+ 
