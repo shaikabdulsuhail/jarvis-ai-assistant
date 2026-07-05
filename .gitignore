@@ -1,20 +1,31 @@
-# Python
+gitignore
+# Python bytecode & caches
 __pycache/
 *.py[cod]
 *.pyc
 *.pyo
 
-# Virtualenv
+# Virtual environments
 venv/
 env/
+.venv
 
-# API keys
+# Environment variables & secrets
 .env
 
 # IDEs
 .vscode/
 .idea/
 
-# OS files
+# OS junk
 .DS_Store
 Thumbs.db
+
+# Logs & databases
+*.log
+db.sqlite3
+
+# Misc tools
+.ipynb_checkpoints
+.mypy_cache/
+.ruff_cache/
